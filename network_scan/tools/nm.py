@@ -20,3 +20,9 @@ def scan_ip():
     nmap = nmap3.Nmap()
     result = nmap.scan_top_ports(ipadd)
     print(result)
+
+def scan_os():
+    net_user = input("What network/IP do you want to scan? ")
+    nmap = nmap3.Nmap()
+    os_result = nmap.nmap_os_detection(net_user)
+    print(os_result)
