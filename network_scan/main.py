@@ -1,13 +1,11 @@
 from tools.nm import *
 from time import sleep
+
+
 def exit_app():
     print("exiting...")
     sleep(2)
     exit(0)
-
-
-
-
 
 def interface():
     user_dictionary ={
@@ -17,6 +15,14 @@ def interface():
     "4": exit_app
     }
     print("""
+       _ _       __ _                       
+      (_|_)_ _  / _| |_  _ ___ _ _  _____ _ 
+      | | | ' \|  _| | || / -_) ' \|_ / _' |
+     _/ |_|_||_|_| |_|\_,_\___|_||_/__\__,_|
+    |__/                                     
+                                Nmap Scanner 
+                                v0.1
+
     1) Scan network
     2) Scan specific IP
     3) Scan operating system
