@@ -5,7 +5,7 @@ Miscellaneous python tools that will automate your needs. The purpose of this to
 
 ## Tools 
 [Network scan using Nmap](./network-scan)  
-[Web Scrapper](./web_scrapper)  
+[Web Scrapper](./web_scraper)  
 
 ## Refererence
 
