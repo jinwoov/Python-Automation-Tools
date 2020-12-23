@@ -4,7 +4,7 @@ import os, subprocess
 os.system("git add .")
 ## Commit message and committing
 user_commit_message = input("Commit message.. ")
-os.system(f"git commit -m '{str(user_commit_message)}'")
+os.system(f"git commit -m {user_commit_message}")
 print()
 # Listing the branches
 print("#==========List of branches==========")
