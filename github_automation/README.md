@@ -14,7 +14,7 @@ This tool is designed to automate the Gitflow process. Tedious `git add to git p
      \--- folder2
 ```
 2. After executing it will prompt for commit message.  
-<img src="./assets/commit.png" style="width:10%" />
+<img src="./assets/commit.png" style="width:20px" />
 3. After typing your commit message it will prompt you with list of remote/local branches attach to this repository.  
 <img src="./assets/list-branches.png" style="width:20%" />
 4. It will then ask for branch that you want to commit from.  
