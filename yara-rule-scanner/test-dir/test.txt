@@ -1,0 +1,5 @@
+old_infected_attributes = node_infected_attributes(graph)
+
+NodeType.DISCONNECTED_COMPUTER
+
+test
